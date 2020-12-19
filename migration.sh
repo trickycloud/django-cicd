@@ -10,6 +10,6 @@ python3 manage.py makemigrations
 
 python3 manage.py migrate
 
-
+python3 -u manage.py > logs/conn.log &
 
 
