@@ -10,10 +10,7 @@ python3 manage.py makemigrations
 
 python3 manage.py migrate
 
-screen
+screen -d -m python3 manage.py runserver 0.0.0.0:8000 
 
-python3 manage.py runserver 0.0.0.0:8000 
-
-exit
 
 
